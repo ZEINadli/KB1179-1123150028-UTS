@@ -17,18 +17,21 @@ class SplashScreen1 extends StatelessWidget {
               height: 250,
               decoration: const BoxDecoration(
                 shape: BoxShape.circle,
-                color: Colors.blueAccent,
+                color: Colors.green,
               ),
               child: Padding(
                 padding: const EdgeInsets.all(20),
-                child: Image.asset('images/bigseblak.png', fit: BoxFit.contain),
+                child: Image.asset(
+                  'images/healthy_image1.png',
+                  fit: BoxFit.contain,
+                ),
               ),
             ),
 
             const SizedBox(height: 30),
 
             const Text(
-              'Title Screen 1',
+              'Mulai Hari dengan Hidup Sehat',
               style: TextStyle(
                 fontSize: 24,
                 color: Colors.black,
@@ -41,11 +44,11 @@ class SplashScreen1 extends StatelessWidget {
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 40),
               child: Text(
-                'Description yapping one',
+                'Bangun kebiasaan baik setiap hari Pantau kesehatanmu dan rasakan perubahan nyata dari hal kecil',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 16,
-                  color: Colors.blueAccent,
+                  color: Colors.green,
                   height: 1.5,
                 ),
               ),
@@ -76,7 +79,7 @@ class SplashScreen1 extends StatelessWidget {
                 );
               },
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.blueAccent,
+                backgroundColor: Colors.green,
                 padding: const EdgeInsets.symmetric(
                   horizontal: 50,
                   vertical: 14,
@@ -106,7 +109,7 @@ class SplashScreen1 extends StatelessWidget {
       width: isActive ? 14 : 10,
       height: isActive ? 14 : 10,
       decoration: BoxDecoration(
-        color: isActive ? Colors.blueAccent : Colors.blueAccent.shade200,
+        color: isActive ? Colors.green : Colors.green.shade200,
         shape: BoxShape.circle,
       ),
     );

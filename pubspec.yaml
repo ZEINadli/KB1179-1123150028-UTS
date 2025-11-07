@@ -21,8 +21,7 @@ flutter:
   uses-material-design: true
 
   assets:
-    - images/bigseblak.png
-    - images/seblakkuah.png
-    - images/seblakceker.png
-    - images/gambar-login.png
+    - images/healthy_image1.png
+    - images/healthy_image2.png
+    - images/healthy_image3.png
     - images/login.png

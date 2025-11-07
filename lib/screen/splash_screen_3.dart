@@ -19,7 +19,7 @@ class SplashScreen3 extends StatelessWidget {
               icon: const Icon(
                 Icons.chevron_left,
                 size: 32,
-                color: Colors.blueAccent,
+                color: Colors.green,
               ),
               onPressed: () {
                 Navigator.pushReplacement(
@@ -42,12 +42,12 @@ class SplashScreen3 extends StatelessWidget {
                   height: 250,
                   decoration: const BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.blueAccent,
+                    color: Colors.green,
                   ),
                   child: Padding(
                     padding: const EdgeInsets.all(20),
                     child: Image.asset(
-                      'images/seblakceker.png',
+                      'images/healthy_image3.png',
                       fit: BoxFit.contain,
                     ),
                   ),
@@ -56,7 +56,7 @@ class SplashScreen3 extends StatelessWidget {
                 const SizedBox(height: 30),
 
                 const Text(
-                  'Title Screen 3',
+                  'Capai Versi Terbaik Dirimu',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 24,
@@ -70,11 +70,11 @@ class SplashScreen3 extends StatelessWidget {
                 const Padding(
                   padding: EdgeInsets.symmetric(horizontal: 40),
                   child: Text(
-                    'Description yapping three',
+                    'Tetap termotivasi dengan target harian dan pencapaian kesehatanmu Setiap langkah kecil berarti untuk hidup yang lebih baik, mari bergabung dengan asuransi kehidupan kami untuk hari yang lebih cerah dan bahagia.',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 16,
-                      color: Colors.blueAccent,
+                      color: Colors.green,
                       height: 1.5,
                     ),
                   ),
@@ -105,7 +105,7 @@ class SplashScreen3 extends StatelessWidget {
                     );
                   },
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.blueAccent,
+                    backgroundColor: Colors.green,
                     padding: const EdgeInsets.symmetric(
                       horizontal: 50,
                       vertical: 14,
@@ -137,7 +137,7 @@ class SplashScreen3 extends StatelessWidget {
       width: isActive ? 14 : 10,
       height: isActive ? 14 : 10,
       decoration: BoxDecoration(
-        color: isActive ? Colors.blueAccent : Colors.blueAccent.shade200,
+        color: isActive ? Colors.green : Colors.green.shade200,
         shape: BoxShape.circle,
       ),
     );

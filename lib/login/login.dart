@@ -46,7 +46,6 @@ class LoginPage extends StatelessWidget {
 
                     const SizedBox(height: 40),
 
-                    // 🔹 TextField untuk Email
                     TextField(
                       controller: emailController,
                       keyboardType: TextInputType.emailAddress,
@@ -54,14 +53,14 @@ class LoginPage extends StatelessWidget {
                         labelText: 'Email',
                         prefixIcon: const Icon(
                           Icons.email_outlined,
-                          color: Colors.blueAccent,
+                          color: Colors.green,
                         ),
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(12),
                         ),
                         focusedBorder: OutlineInputBorder(
                           borderSide: const BorderSide(
-                            color: Colors.blueAccent,
+                            color: Colors.green,
                             width: 2,
                           ),
                           borderRadius: BorderRadius.circular(12),
@@ -79,14 +78,14 @@ class LoginPage extends StatelessWidget {
                         labelText: 'Nama',
                         prefixIcon: const Icon(
                           Icons.person_outline,
-                          color: Colors.blueAccent,
+                          color: Colors.green,
                         ),
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(12),
                         ),
                         focusedBorder: OutlineInputBorder(
                           borderSide: const BorderSide(
-                            color: Colors.blueAccent,
+                            color: Colors.green,
                             width: 2,
                           ),
                           borderRadius: BorderRadius.circular(12),
@@ -107,7 +106,7 @@ class LoginPage extends StatelessWidget {
                           );
                         },
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.blueAccent,
+                          backgroundColor: Colors.green,
                           padding: const EdgeInsets.symmetric(vertical: 16),
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(30),
